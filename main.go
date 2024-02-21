@@ -8,11 +8,12 @@ import (
 )
 
 func start(c *gin.Context) {
-	computerName, _ := os.Hostname()
-	c.String(http.StatusOK, "Tjena "+computerName+" this is cool")
+	computerName2, _ := os.Hostname()
+	c.String(http.StatusOK, "Tjena "+computerName2+" this is cool")
 }
 
 func main() {
+	//hej
 	router := gin.Default()
 	router.GET("/", start)
 
