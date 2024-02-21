@@ -8,8 +8,8 @@ import (
 )
 
 func start(c *gin.Context) {
-	computerName2, _ := os.Hostname()
-	c.String(http.StatusOK, "Tjena "+computerName2+" this is cool")
+	computerName2, _ := os.Hostname() //hallo
+	c.String(http.StatusOK, "Tjena "+computerName2+" this is cool3")
 }
 
 func main() {
