@@ -14,7 +14,6 @@ func start(c *gin.Context) {
 
 func main() {
 	//hej
-	//hej2
 	router := gin.Default()
 	router.GET("/", start)
 
