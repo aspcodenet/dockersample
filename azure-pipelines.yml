@@ -19,7 +19,7 @@ stages:
     displayName: Build
     pool:
       vmImage: ubuntu-latest
-   steps:
+    steps:
     - task: CmdLine@2
       inputs:
         script: |
